@@ -7,6 +7,7 @@ BEGIN {
 	nivel="";
 	ciclo="";
 	grado="dipl";
+	contOpt=1;
 }
 {
 
@@ -22,6 +23,11 @@ BEGIN {
 	else if($1~/^Estudios /){
 		$3=$2;
 		$2=$1;
+	}
+	else if( $1~/^Optativa/){
+		$1=$1contOpt++;
+		$3=$2;
+		$2=$1;	
 	}
 	else if($1~/Nivel/){
 		switch($1){
@@ -49,13 +55,14 @@ BEGIN {
 
 	if($3~/ /&&($3~/^EI/ ||$3~ /^MA/ ||$3~ /^LI/ ||$3~/^Optativa/ || $3~/^[(]/ )){
 		if(NR!=86){	
-			sub (" ", "", $3);
+			sub (/  /, " ", $3);
+			if($3~/ [100-600]/)
+				sub (" ", "", $3);
 			sub(/ .+/, "", $3);
 		}else{
 			sub(/.+)/, "", $3);
 			sub (" ", "", $3);
 			sub (" ", "", $3);
-			sub(/ .+/, "", $3);
 			sub (" ", "", $5);
 		}
 	}
