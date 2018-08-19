@@ -7,9 +7,10 @@ BEGIN{
     FS="::";
 	printf "digraph prueba {\n";
     printf "ranksep=0.50;\n";
-    printf "Admission[shape=house, color=gray, fontcolor=black, style=filled ];\n";
+    printf "Admission[shape=house, color=gray, fontcolor=black, style=filled];\n";
 	printf "{\n";
 	printf "\n";
+	
     printf "node [shape=ellipse, color=white, fontcolor = " "blue , fixedsize =false""]\n";
     printf "edge[color=red]\n";
 	printf "start -> I_I ->I_II->II_I->II_II->III_I->III_II->IV_I->IV_II-> end;\n";
