@@ -53,7 +53,7 @@ nivel=$(NF-1) "_" $NF;
         break
     }
 }
-($1<41||$1>56){
+($1<41){
 tam=NF;
 tamN=tam-3;
 determinarRango();
