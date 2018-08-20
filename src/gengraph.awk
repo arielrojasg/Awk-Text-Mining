@@ -7,7 +7,7 @@ BEGIN{
     FS="::";
 	printf "digraph prueba {\n";
     printf "ranksep=0.50;\n";
-    printf "Admission[shape=circle, color=gray, fontcolor=black, style=filled ];\n";
+    printf "Admission[shape=circle, color=red, fontcolor=white, style=filled ];\n";
 	printf "{\n";
 	printf "\n";
     printf "node [shape=circle, color=white, fontcolor = " "blue , fixedsize =false""]\n";
@@ -16,7 +16,7 @@ BEGIN{
     printf "start; Admission\n";
     printf "}\n";
 	printf "{rank = same; end }\n";
-	printf "node [shape=circle, color=red, fontcolor = " "blue , fixedsize =false""]\n";
+	printf "node [shape=circle, color=blue, fontcolor = " "blue , fixedsize =false""]\n";
 	printf "edge[color=gray]\n";
     printf "{rank = same; Admission; start; }\n";
 }

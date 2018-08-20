@@ -30,17 +30,17 @@
 30::EIF407::Liderazgo y Organización ::3::EIF404::bsc::III::II
 31::EIFXXX::Diseño y programación de plataformas Móviles::4::EIF209::EIF428O::bsc::IV::I
 32::EIF406::Ingeniería de Sistemas III::4::EIF401::bsc::IV::I
-33::Optativa::3::Ver cursos optativos::Admission::bsc::IV::I
-34::Optativa::3::Ver cursos optativos::Admission::bsc::IV::I
+33::Optativa1::Optativa 1::3::Admission::bsc::IV::I
+34::Optativa2::Optativa 2::3::Admission::bsc::IV::I
 35::EIF403::Métodos de Investigación Científica en Informática::3::MAY223::bsc::IV::I
 36::EIF408::Proyectos y su Aplicación en la Organización (PPS)::5::EIF209::EIF401::EIF402::bsc::IV::II
 37::EIF409::Aplicaciones Informáticas Globales::4::EIF209::EIF401::EIF402::bsc::IV::II
-38::Optativa::3::Ver cursos optativos::Admission::bsc::IV::II
-39::Optativa::3::Ver cursos optativos::Admission::bsc::IV::II
+38::Optativa3::Optativa 3::3::Admission::bsc::IV::II
+39::Optativa4::Optativa 4::3::Admission::bsc::IV::II
 40::EIF410::Informática y Sociedad::2::EIF401::bsc::IV::II
 41::EIF100O::Dispositivos para comunicaciones de Datos::3::EIF208::Admission::bsc::_::_
 42::EIF420O::Inteligencia Artificial::3::EIF207::Admission::bsc::_::_
-43::EIF421O::Análisis de Algoritmos::3::EIF::MAY231::bsc::_::_
+43::EIF421O::Análisis de Algoritmos::3::EIF207::MAY231::bsc::_::_
 44::EIF422O::Diseño de Interfaces de usuario::3::EIF206::Admission::bsc::_::_
 45::EIF424O::Desarrollo de Aplicaciones Educativas::3::EIF204::EIF206::bsc::_::_
 46::EIF425O::Diseño de Ambientes Multimediales::3::Admission::bsc::_::_
@@ -51,7 +51,7 @@
 51::EIF433O::Contexto, Desarrollo y Aplicación de Software Libre y de código abierto::3::EIF212::EIF211::bsc::_::_
 52::EIF434O::Minería de Datos I::3::EIF402::MAY223::bsc::_::_
 53::EIF435O::Minería de Datos II::3::EIF434::Admission::bsc::_::_
-54::EIG416O::Gestión de Tecnología Educativa::3::EIF425::Admission::bsc::_::_
+54::EIG416O::Gestión de Tecnología Educativa::3::EIF425 O Diseño de ambientes multimediales::Admission::bsc::_::_
 55::EIF429O::Introducción a la creación de Empresas::3::Admission::bsc::_::_
 56::EIF430O::Las TIC’s en el Ámbito Jurídico de Costa Rica::3::Admission::bsc::_::_
 57::EIG417O::Liderazgo y organizaciones::3::Admission::bsc::_::_
