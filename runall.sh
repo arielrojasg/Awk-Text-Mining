@@ -13,7 +13,6 @@ fi
 #
 echo "*** Generating Graphviz *** "
 gawk -f  src/gengraph.awk compose_output/composed_plan.txt | dot -Tpdf -o gv_output/study_plan.pdf
-gawk -f  src/gengraphOp.awk compose_output/composed_plan.txt | dot -Tpdf -o gv_output/study_planOp.pdf
 #
 retVal=$?
 if [ $retVal -ne 0 ]; then 
