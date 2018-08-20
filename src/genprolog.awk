@@ -61,7 +61,7 @@ function traduceNumero(romano){
 	}
 	
 	#Crea la lista de atributos del curso.
-	printf "course('%s', %s, %s, %s, %s, %s, %s, %s).\n", $2, $1, tipo, plan, $4, nivel, ciclo, $3;
+	printf "course('%s', %s, %s, %s, %s, %s, %s, '%s').\n", $2, $1, tipo, plan, $4, nivel, ciclo, $3;
 	
 	#Imprime los requisitos
 	tam=NF;
